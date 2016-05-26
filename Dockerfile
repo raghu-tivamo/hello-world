@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-RUN apk-add --update bash
+RUN apk add --update bash
 
 WORKDIR /hello-world
  
