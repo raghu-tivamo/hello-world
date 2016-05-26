@@ -6,4 +6,6 @@ WORKDIR /hello-world
  
 COPY ./another.txt /hello-world/
 
-RUN cat another.txt
+ENTRYPOINT ["/bin/bash"]
+
+CMD ["cat", "./another.txt"]
