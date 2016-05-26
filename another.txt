@@ -1,1 +1,1 @@
-another text file.
+This image is working as expected.
