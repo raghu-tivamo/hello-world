@@ -1,3 +1,0 @@
-#This image is working as expected.
-
-echo "Hello World!"

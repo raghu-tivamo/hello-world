@@ -4,8 +4,10 @@ RUN apk add --update bash
 
 WORKDIR /hello-world
  
-COPY ./another.txt /hello-world/
+COPY ./hello.sh /hello-world/
 
 ENTRYPOINT ["/bin/bash"]
 
-CMD ["cat", "./another.txt"]
+RUN chmod a+x hello.sh
+
+CMD ["./hello.sh"]
